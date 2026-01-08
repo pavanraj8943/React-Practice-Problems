@@ -1,7 +1,7 @@
 import React, { useEffect,useState } from 'react'
 
 // const DocmentTittle = () => {
-//     const[count,setCount]=React.useState(0);
+//     const[count,setCount]=useState(0);
 //  useEffect(()=>{
 //         document.title =`Count ${count}`;},[count]);
 //   return (
