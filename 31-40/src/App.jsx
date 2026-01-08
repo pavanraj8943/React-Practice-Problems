@@ -8,6 +8,7 @@ import ListKey from './Componetes/MapObjectKey'
 import NestedComponets from './Componetes/NestedComponets'
 import PreventReRender from './Componetes/PreventReRender'
 import Dynamic from './Componetes/Dynamic'
+import ListWithDelete from './Componetes/ListDeleteBtn'
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <NestedComponets />
       <PreventReRender />
       <Dynamic item={{ name: 'Dynamic', active: true }} />
+      <ListWithDelete />
 
     </div>
   )
