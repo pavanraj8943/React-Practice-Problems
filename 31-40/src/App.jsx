@@ -5,6 +5,7 @@ import ConditionalListRendering from './Componetes/ConditionalListRendering'
 import FilterListDynamically from './Componetes/FilterListDynamically'
 import SortListDynamically from './Componetes/SortListDynamically'
 import ListKey from './Componetes/MapObjectKey'
+import NestedComponets from './Componetes/NestedComponets'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <FilterListDynamically />
       <SortListDynamically />
       <ListKey />
+      <NestedComponets />
     </div>
   )
 }
