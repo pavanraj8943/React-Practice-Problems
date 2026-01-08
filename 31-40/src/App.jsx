@@ -6,6 +6,8 @@ import FilterListDynamically from './Componetes/FilterListDynamically'
 import SortListDynamically from './Componetes/SortListDynamically'
 import ListKey from './Componetes/MapObjectKey'
 import NestedComponets from './Componetes/NestedComponets'
+import PreventReRender from './Componetes/PreventReRender'
+import Dynamic from './Componetes/Dynamic'
 
 const App = () => {
   return (
@@ -17,6 +19,9 @@ const App = () => {
       <SortListDynamically />
       <ListKey />
       <NestedComponets />
+      <PreventReRender />
+      <Dynamic item={{ name: 'Dynamic', active: true }} />
+
     </div>
   )
 }

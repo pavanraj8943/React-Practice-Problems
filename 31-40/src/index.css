@@ -1,0 +1,9 @@
+.active {
+  color: rgb(45, 0, 128);
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.inactive {
+  color: gray;
+}
