@@ -3,6 +3,7 @@ import ListRenderingUniqueKey from './Componetes/ListRenderingUniqueKey'
 import NestedList from './Componetes/NestedList'
 import ConditionalListRendering from './Componetes/ConditionalListRendering'
 import FilterListDynamically from './Componetes/FilterListDynamically'
+import SortListDynamically from './Componetes/SortListDynamically'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <NestedList />
       <ConditionalListRendering />
       <FilterListDynamically />
+      <SortListDynamically />
     </div>
   )
 }
